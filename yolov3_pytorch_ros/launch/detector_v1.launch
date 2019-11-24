@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
     <!-- Camera topic and weights, config and classes files -->
-    <!--<arg name="image_topic"	                default="/arm_sensor/camera/image_raw"/>-->
-    <arg name="image_topic"                 default="/cv_camera/image_raw"/>
-    <arg name="weights_name"	            default="yolov3-tiny.weights"/>
-    <arg name="config_name"	                default="yolov3-tiny.cfg"/>
-    <arg name="classes_name"	            default="coco.names"/>
+    <arg name="image_topic"	                default="/arm_sensor/camera/image_raw"/>
+    <arg name="weights_name"	            default="yolov3-cai-tiny_final.weights"/>
+    <arg name="config_name"	                default="yolov3-cai-tiny.cfg"/>
+    <arg name="classes_name"	            default="screw.names"/>
 
     <!-- Published topics -->
     <arg name="publish_image"	            default="true"/>
